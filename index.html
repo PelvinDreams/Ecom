@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- main style -->
+     <link rel="stylesheet" href="ecom.css">
+    <!-- BOXXI ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Ecomm</a>
+            <!-- Cart Icons -->
+            <i class='bx bx-shopping-bag bx-tada' id="cart-icon" data-quantity="0"></i>
+            <!-- Cart -->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!-- Content -->
+                <div class="cart-content">
+                  
+                </div>
+                <!-- Total -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <!-- Buy Button -->
+                <button type="button" class="btn-buy">Pay Now</button>
+                <i class='bx bx-x-circle bx-burst bx-rotate-90' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Products -->
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <!-- Shop Content -->
+        <div class="shop-content">
+            <!--  Box 1 -->
+            <div class="product-box">
+                <!-- Strip Need Image -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4LAvJluaM_blgB1bRw1ihi4nI0zVO2qPLLEv1Isnnzuc-jCfezMm8DbPp50d0uLb_xSOFw6fUvv5VeIskuWqkPKDA-zU96vsU5gFKWcRjgLk9WJjzyoxng_iAiq4P8hx18tCmvtatXYG7CdB2ZCxDIYdgG8OE1nRr0GFJwgBSoIWjask3QpOITLacvGQJ/s1080/CASUAL-UNISEX-HIGH-SNEAKER-SHOES.jpeg" alt="product image" class="product-image">
+                <h2 class="product-title">CASUAL UNISEX HIGH SNEAKER SHOE</h2>
+                <span class="price">$50</span>
+                <i class="bx bx-shopping-bag bx-tada add-cart"></i>
+            </div>
+
+              <!--  Box 2 -->
+              <div class="product-box">
+                <!-- Strip Need Image -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmC-XWxGJEdzbvFAxiy6k-3Oyb9Zw4AYoiLjwWhezkGFNfHyQcOL_WXhzVrulef-Sq_ySKKql8uukS-QqAg3vIGf8HnVSThZYmgsqiHm39n-lptNqmLvELcRc1FPsoCNQV49bMwuUtYmmzZ6V-XBPK49cw_-Qz2vxYKVREZKly29vDqt_XMCv2cu60XyYa/s600/1195-BRN-4-600x600.jpg" alt="product image" class="product-image">
+                <h2 class="product-title">Breathable Lovers Velvet Sneaker</h2>
+                <span class="price">$70.99</span>
+                <i class="bx bx-shopping-bag bx-tada add-cart"></i>
+            </div>
+
+              <!--  Box 3 -->
+              <div class="product-box">
+                <!-- Strip Need Image -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhWJW3_PzWt871mSOBBJlzdkKJUipgIQSlzIC1V2ZSyr9G-PKnH45JQy6wOZkOe_fEUx5rcqXeKO7GJCT25GWKZyasIlUQSQqPUe5VA5Aue37atbXAK9dU4bbRWjxGp6tGh3PKFCdx105BopGMgMbY-vo5QdeVd0WXfBPOiiNicnDiw3fvgOJJeEBG_Uapr/s536/UNISEX-UP-AND-DOWN-SHORT-AND-TOP-5.jpeg" alt="product image" class="product-image">
+                <h2 class="product-title">UP AND DOWN SHORT AND TOP</h2>
+                <span class="price">$24.98</span>
+                <i class="bx bx-shopping-bag bx-tada add-cart"></i>
+            </div>
+
+              <!--  Box 4 -->
+              <div class="product-box">
+                <!-- Strip Need Image -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJGnaBOosmw3e7wZ7qWYVHNNE_VJjVBcgSPEDdgtDrnthQPPmcWe_nSYNGe6w4j_VNvI4do6_G4CH8ToJRBGA4h1C-C96ArdXav6WZ_5WySoCMhpJONQ8r1aDYFxNHVTvbFmaWmKKMj-efss2r4534U8Vp691AJY6yKvrZeAvuXEdkh0DAnE5yRq4C9nxi/s1600/d75ad00f-f314-44e1-8a08-d70cde7b6958.2d0433c9aee4963048bdc3f6425a32bb.jpeg" alt="product image" class="product-image">
+                <h2 class="product-title">Summer Casual Print Zipper</h2>
+                <span class="price">$100</span>
+                <i class="bx bx-shopping-bag bx-tada add-cart"></i>
+            </div>
+
+              <!--  Box 5 -->
+              <div class="product-box">
+                <!-- Strip Need Image -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYkgkdCIA15-nS0Iac9pvLtPKfOrYU0sjmZkes5BryvQnBcdXF2Pv4UnEyX_JGzJbcpgEhPiPwN7MwfdVUi0hPBH9baIX56yDDGEwCiyOUL68_TAaZ6xSsdchV3cLNNqXYCoKMx8mVE5eMJUEqil7aDYmIFWWH3pc3QMwZLcO9TN7yTHvY4HOEfBgm_C3P/s1000/l-fc6049-fastcolors-men-original-imagh6fx2xqyyzqh.webp" alt="product image" class="product-image">
+                <h2 class="product-title">Sweatshirt HOODIE</h2>
+                <span class="price">$80.50</span>
+                <i class="bx bx-shopping-bag bx-tada add-cart"></i>
+            </div>
+
+              <!--  Box 6 -->
+              <div class="product-box">
+                <!-- Strip Need Image -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsC_emyn5vcCH7uVm-FILmZ9IO6ZWzGSR9OBBS_4OhIjE85PuBPQHy9KU6AxLkS0ipEAoVEm_DjKmOXQmi77RU1PAqMAsIJvjaq7a5UCPTLzFeMnEg0CB6H01D5l4mWeSgMlUzIEEvucJin-gEakYXX3hgIh8I5KLJXHHPHkhxwHTYGzibzn-g6dsLRA-z/s550/0010694_stylish-casual-long-sleeve-hoodies-for-men_550.jpeg" alt="product image" class="product-image">
+                <h2 class="product-title">Long Sleeve Hoodie</h2>
+                <span class="price">$200</span>
+                <i class="bx bx-shopping-bag bx-tada add-cart"></i>
+            </div>
+
+              <!--  Box 7 -->
+              <div class="product-box">
+                <!-- Strip Need Image -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZjo5zlJ2CwgCNRkt-kZvoQqDWuCFZE1LOtMrx-RmPxhkHMij9rukd_Qxy17bpFo68yIbfH082bPL7dKvgC4C-CpM8en9rwxRf_uffOF43x6vBwmvZ_919aMJOzRErPIHcP319iEsYQs8AEwY21SIpcD3y1sCDbRDxfHlRD-3yfImSlxGm-VSbBau0axDi/s500/1.jpg" alt="product image" class="product-image">
+                <h2 class="product-title">Male Leather Belt </h2>
+                <span class="price">$80.04</span>
+                <i class="bx bx-shopping-bag bx-tada add-cart"></i>
+            </div>
+
+              <!--  Box 8 -->
+              <div class="product-box">
+                <!-- Strip Need Image -->
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3AALYh5xlyXk3WXD-QccmYJWRwN42Le8gp1B5kBW3f98JOpcRpBf0o87pVzio4uNjUZrKGcwT_GvCBv7I0sKFzUp9pYkpLN0h1ZAcZyALUv_gyN_Xo5NGE2QXagyOJTnQctqjxhtM82caxSjhaEsh_CMy4rpo8dnEufu32sqvpIm4KzTSGQkvVLYrtKlx/s500/1%20(1).jpg" alt="product image" class="product-image">
+                <h2 class="product-title">Automatic Buckle Belt</h2>
+                <span class="price">$280</span>
+                <i class="bx bx-shopping-bag bx-tada add-cart"></i>
+            </div>
+        </div>
+    </section>
+    
+<!-- JS Link -->
+    <script src="ecom.js"></script>
+</body>
+</html>
